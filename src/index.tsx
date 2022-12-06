@@ -21,7 +21,7 @@ root.render(
           <Route path="locations" element={<h1>Locations</h1>} />
           <Route path="episodes" element={<h1>Episodes</h1>} />
           <Route index element={<h1>Home</h1>} />
-          <Route path='home' element={<Navigate to="/" replace />} />
+          <Route path='home' element={<Navigate to="rick-and-morty" replace />} />
           <Route path="*" element={<h1>Not Found Page</h1>} />
         </Route>
       </Routes>

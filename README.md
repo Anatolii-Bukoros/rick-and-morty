@@ -1,6 +1,6 @@
 # Demo page
 
-[DEMO](https://anatolii-bukoros.github.io/rick-and-morty/).
+[DEMO](https://anatolii-bukoros.github.io/rick-and-morty/)
 
 ## Test Task
 
