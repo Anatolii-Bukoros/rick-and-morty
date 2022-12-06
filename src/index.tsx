@@ -13,7 +13,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}>
+        <Route path="rick-and-morty" element={<App />}>
           <Route path="characters" element={<Characters />}>
             <Route index element={<Characters />} />
             <Route path=":charactersId" element={<Characters />} />
