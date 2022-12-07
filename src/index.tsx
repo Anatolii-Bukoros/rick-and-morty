@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <HashRouter basename='/rick-and-morty'>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="characters" element={<Characters />}>
