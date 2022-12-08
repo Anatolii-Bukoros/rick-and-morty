@@ -1,18 +1,12 @@
 import React from 'react';
-import 'bulma/css/bulma.css';
 import './App.css';
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+import { NavBar } from './components/NavBar';
 
 export const App: React.FC<{}> = () => {
   return (
     <div className="App">
-      <nav className="navbar">
-        <Link to='/' >Home</Link>
-        <Link to='characters' >characters</Link>
-        <Link to='locations' >locations</Link>
-        <Link to='episodes' >episodes</Link>
-      </nav>
-
+      <NavBar />
       <Outlet />
     </div>
   )
